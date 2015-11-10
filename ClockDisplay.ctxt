@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=
-comment0.target=Reloj()
+comment0.target=ClockDisplay()
 comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Reloj\r\n
 comment1.params=valorHora\ valorMinutos
 comment1.target=void\ setTime(int,\ int)

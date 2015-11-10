@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Reloj
+public class ClockDisplay
 {
     // instance variables - replace the example below with your own
     private int hora;
@@ -16,7 +16,7 @@ public class Reloj
     /**
      * Constructor for objects of class Reloj
      */
-    public Reloj()
+    public ClockDisplay()
     {
         hora = 0;
         minutos = 0;
