@@ -1,4 +1,4 @@
-
+  
 /**
  * Write a description of class Reloj here.
  * 
@@ -20,7 +20,6 @@ public class ClockDisplay
     {
         hora = 0;
         minutos = 0;
-      
     }
     /**
      * Metodo que permite cambiar la hora
@@ -60,9 +59,11 @@ public class ClockDisplay
      */
     public void getTime()
     { 
-       if (hora < 10 && minutos > 10)
+ 
+        if (hora < 10 && minutos > 10)
        {
            System.out.println("0"+hora + ":" + minutos);
+           
        }
        if(minutos < 10 && hora > 10)
        {
@@ -72,6 +73,7 @@ public class ClockDisplay
        if (hora < 10 && minutos < 10)
        {
            System.out.println("0"+hora + ":0" + minutos);
+           
        }
        if (hora > 10 && minutos > 10)
        {
